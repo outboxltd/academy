@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קורס סייבר לחופש הגדול - הצטרפו עכשיו!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+    <div class="container">
+        <h1 id="typewriter" class="gradient-text"></h1>
+        <p class="subtitle">הצטרפו לעולם המרתק של הטכנולוגיה והתכנות!</p>
+        <a href="#register" class="cta-button">הקורסים הקרובים</a>
+    </div>
+</header>
+
+
+    <div class="container">
+        <section class="section">
+            <h2>כמה דברים שחשוב שתדעו עלינו</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">🏆</div>
+                    <h3>זה מתחיל באנשים</h3>
+                    <p>צוות המדריכים שלנו כולל אנשי מקצוע מנוסים מתעשיית התוכנה והסייבר</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h3>למידה מעשית</h3>
+                    <p>התנסות אמיתית בכלים ובטכניקות הנפוצות בעולם הסייבר</p>
+                </div>
+                <div class="card">
+                    <div class="icon">👥</div>
+                    <h3>קבוצות קטנות</h3>
+                    <p>יחס אישי ותשומת לב מרבית לכל תלמיד</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🌟</div>
+                    <h3>פרויקט מסכם</h3>
+                    <p>בניית פרויקט אישי להצגה בפני משפחה וחברים</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>מה נלמד בקורס?</h2>
+            <ul>
+                <li>יסודות התכנות בשפת Python</li>
+                <li>הכרת עולם הסייבר והאקינג אתי</li>
+                <li>טכניקות הגנה ואבטחת מידע</li>
+                <li>פיתוח חשיבה ביקורתית ופתרון בעיות</li>
+                <li>עבודה בצוות ופרויקטים משותפים</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>מה אומרים עלינו?</h2>
+            <div class="testimonial">
+                "הקורס היה חוויה מדהימה! למדתי המון דברים חדשים ומרתקים על עולם הסייבר. ממליץ בחום!" - יובל, 14
+            </div>
+            <div class="testimonial">
+                "הילדה שלי חזרה הביתה כל יום נרגשת ומלאת מוטיבציה. תודה על קורס מעולה!" - רונית, אמא של שירה
+            </div>
+        </section>
+
+        <section id="register" class="section">
+    <h2>מועדים וקהלי יעד</h2>
+    <div id="coursesContainer"></div>
+    <p>מספר המקומות מוגבל! הבטיחו את מקומכם עכשיו</p>
+    <a href="#" id="buy" class="cta-button">הרשמה לקורס</a>
+</section>
+
+
+
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>הצטרפו לחוויה של קייטנת הסייבר!</p>
+            <a href="#" class="cta-button">צפו בסרטון</a>
+            <a href="#" class="cta-button">קראו על התוכנית</a>
+            <a href="tel:0502555605" class="cta-button">התקשרו אלינו</a>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/972502555605?text=אשמח לקבל פרטים על הקורסים" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="WhatsApp">
+    </a>
+
+    <!-- Add this just before the closing </body> tag -->
+<div id="courseModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>בחירת קורס</h2>
+        <select id="dateSelect">
+            <option value="">בחר תאריך</option>
+        </select>
+        <select id="courseSelect" disabled>
+            <option value="">בחר קורס</option>
+        </select>
+        <div id="courseInfo"></div>
+        <button id="buyButton">לרכישה</button>
+        <button id="whatsappButton">התייעצו איתנו בוואטסאפ</button>
+    </div>
+</div>
+
+
+    <script src="main.js"></script>
+    <script src="typewriter.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+    {
+        "Course-Name": "תכנות משחקים ברובלוקס סטודיו",
+        "Target-Grades": "ה-ח",
+        "Development-Software": "Roblox Studio",
+        "Dates": "01.07-07.07",
+        "Sessions (Lessons)": "5 ימים (10 שיעורים)",
+        "Hours": "09:00-11:00",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "הקורס מלא"
+    },
+    {
+        "Course-Name": "תכנות משחקים ברובלוקס סטודיו",
+        "Target-Grades": "ב-ד",
+        "Development-Software": "Roblox Studio",
+        "Dates": "07.07-10.07",
+        "Sessions (Lessons)": "5 ימים (10 שיעורים)",
+        "Hours": "09:00-11:00",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    },
+    {
+        "Course-Name": "צעדים ראשונים בתכנות",
+        "Target-Grades": "ה-ח",
+        "Development-Software": "Visual Studio Code",
+        "Dates": "07.07-10.07",
+        "Sessions (Lessons)": "5 מפגשים (10 שיעורים)",
+        "Hours": "11:30-14:30",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    },
+    {
+        "Course-Name": "תכנות משחקים ברובלוקס סטודיו",
+        "Target-Grades": "ב-ד",
+        "Development-Software": "Roblox Studio",
+        "Dates": "15.07-18.07",
+        "Sessions (Lessons)": "5 ימים (10 שיעורים)",
+        "Hours": "09:00-11:00",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    },
+    {
+        "Course-Name": "צעדים ראשונים בתכנות",
+        "Target-Grades": "ה-ח",
+        "Development-Software": "Visual Studio Code",
+        "Dates": "15.07-18.07",
+        "Sessions (Lessons)": "5 מפגשים (10 שיעורים)",
+        "Hours": "12:00-14:30",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    },
+    {
+        "Course-Name": "חוג פיתוח אתרים לכיתות ו-ט",
+        "Target-Grades": "ו-ט",
+        "Development-Software": "Visual Studio Code",
+        "Dates": "15.07-18.07",
+        "Sessions (Lessons)": "6 מפגשים (12 שיעורים)",
+        "Hours": "10:00-12:00",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    },
+    {
+        "Course-Name": "סייבר",
+        "Target-Grades": "ז-ט",
+        "Development-Software": "Visual Studio Code",
+        "Dates": "22.07-25.07",
+        "Sessions (Lessons)": "6 מפגשים (12 שיעורים)",
+        "Hours": "10:00-12:00",
+        "Course-Cost": 650,
+        "Location": "שיעור אונליין בזום",
+        "Extras": "שעה 1 על 1 עם מנטור מאצלינו לקידום הפרוייקט",
+        "status": "ניתן להרשם"
+    }
+]
